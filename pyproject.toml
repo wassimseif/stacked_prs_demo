@@ -7,7 +7,9 @@ authors = [
     { name = "Wassim Seifeddine", email = "wassim_seifeddine95@live.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.141.1",
+]
 
 [project.scripts]
 stacked-prs = "stacked_prs:main"

@@ -6,4 +6,4 @@ class User(BaseModel):
     email: str
     full_name: str | None = None
     disabled: bool | None = None
-
+    created_at: str | None = None
